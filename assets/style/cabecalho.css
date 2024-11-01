@@ -1,19 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --russian-violet: #10002bff;
+    --russian-violet-2: #240046ff;
+    --persian-indigo: #3c096cff;
+    --tekhelet: #5a189aff;
+    --french-violet: #7b2cbfff;
+    --amethyst: #9d4eddff;
+    --heliotrope: #c77dffff;
+    --mauve: #e0aaffff;
+    --preto: #000;
+    --branco: #fff;
+}
+
 header{
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    background-color: black;
-
+    justify-content: space-around;
+    background-color: var(--preto);
+    
 }
 
-#logo{
-    flex-direction: column;
+.cabecalho-logo{
+    display: flex;
+    align-items: center;
 }
 
-#title{
+.logo{
+    width: 14%;
+}
+
+.title{
     flex-direction: column;
-    line-height: 10px;
-    color: #fff;
+    color: var(--branco);
+    margin-left: 1.5em;
 }
