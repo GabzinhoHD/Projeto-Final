@@ -6,3 +6,46 @@ body {
     background-color: var(--cinza-fosco);
     color: var(--branco);
 }
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 50px;
+    font-family: var(--fonte-titulo);
+    
+}
+
+
+span {
+    color: var(--ametista);
+}
+
+p {
+    line-height: 25px;
+    max-width: 500px;
+    font-family: var(--fonte-texto);
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+img{
+    width: 520px;
+    margin-left: 70px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--preto);
+    color: var(--branco);
+    width: 100%;
+    height: 2rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
