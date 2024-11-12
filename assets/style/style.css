@@ -1,5 +1,5 @@
 @import url('cabecalho.css');
-@import url('rodape.css');
+@import url('rod');
 
 body {
     font-family: var(--fonte-texto);
@@ -15,7 +15,7 @@ main {
     flex-direction: row;
     margin: 50px;
     justify-content: space-around;
-    margin-top: 180px;
+    margin-top: 85px;
 }
 
 h2 {
@@ -28,7 +28,6 @@ h2 {
 
 span {
     color: var(--ametista);
-    font: bolder;
 }
 
 p {

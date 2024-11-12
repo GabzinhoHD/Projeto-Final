@@ -46,11 +46,14 @@ header{
     flex-direction: column;
     color: var(--branco);
     margin-left: 1.5em;
+    font-family: var(--fonte-titulo);
+    font-size: 2rem;
 }
 
 li {
     display: inline-block;
     margin: 20px;
+    margin-left: 1.5rem;
 }
 
 a {
