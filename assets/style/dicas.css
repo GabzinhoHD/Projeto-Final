@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --violeta-escuro: #10002bff;
+    --violeta-escurinho: #240046ff;
+    --roxo: #3c096cff;
+    --violeta: #5a189aff;
+    --violeta-claro: #7b2cbfff;
+    --ametista: #9d4eddff;
+    --rosa: #c77dffff;
+    --rosinha: #e0aaffff;
+    --preto: #1C1C1C;
+    --branco: #fff;
+    --cinza-fosco: #222222;
+    --fonte-titulo: "Ubuntu", sans-serif;
+    --fonte-texto:"Nunito", sans-serif;
+}
+
+header{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--preto);
+    padding: 1em;
+    
+}
+
+.cabecalho-logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 14%;
+}
+
+.title{
+    flex-direction: column;
+    color: var(--branco);
+    margin-left: 1.5em;
+    font-family: var(--fonte-titulo);
+    font-size: 2rem;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+    margin-left: 1.5rem;
+}
+
+a {
+    color: var(--branco);
+}
+
+a :hover{
+    color: var(--branco);
+    transition: 0.3s all;
+}
+
+
+.btn-card{
+    border: 2px solid var(--violeta-claro);
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.btn-card:hover{
+    background-color: var(--violeta-claro);
+    color: white;
+}
+
+body{
+background-color: #222222;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    background-color: var(--preto);
+    color: var(--branco);
+    width: 100%;
+    height: 5.2rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    bottom: 0;
+}
