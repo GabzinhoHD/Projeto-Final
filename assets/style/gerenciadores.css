@@ -3,7 +3,6 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 :root{
@@ -60,11 +59,15 @@ a {
     color: var(--branco);
 }
 
-a :hover{
+.ul-dg{
     color: var(--branco);
-    transition: 0.3s all;
+
 }
 
+.ul-dg:hover{
+    color: var(--violeta-claro);
+
+}
 
 .btn-card{
     border: 2px solid var(--violeta-claro);
@@ -74,7 +77,7 @@ a :hover{
 
 .btn-card:hover{
     background-color: var(--violeta-claro);
-    color: white;
+    color: var(--rosa);
 }
 
 body {
@@ -121,9 +124,12 @@ p {
     font-size: 1.2rem;
 }
 
-img{
-    width: 520px;
-    margin-left: 70px;
+.modal-paragrafo{
+    color: var(--preto);
+}
+
+#exampleModalLabel{
+    color: var(--violeta);
 }
 
 footer{
