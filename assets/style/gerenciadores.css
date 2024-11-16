@@ -130,7 +130,7 @@ body{
 
 /* rodape */
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,4 +146,14 @@ footer{
     margin-top: 2rem;
     font-size: 1.3rem;
     bottom: 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: var(--rosa);
+    margin-right: 1rem;
+}
+
+.footer-link:hover {
+    color: var(--violeta);
 }
