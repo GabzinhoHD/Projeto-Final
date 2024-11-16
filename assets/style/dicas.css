@@ -59,6 +59,8 @@ li {
 
 a {
     color: var(--branco);
+    text-decoration: none;
+    font-family: var(--fonte-texto);
 }
 
 .ul-dg{
@@ -86,6 +88,62 @@ a {
 
 body{
 background-color: var(--cinza-fosco);
+}
+
+/* card */
+
+.card{
+    background-color: var(--preto);
+    box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-title{
+    font-family: var(--fonte-titulo);
+    font-size: 1.5rem;
+    color: var(--ametista);
+}
+
+
+.card-text{
+    color: var(--branco);
+    font-family: var(--fonte-texto);
+}
+
+.btn{
+    color:var(--branco);
+    border-radius: 15px;
+    background-color: var(--violeta);
+}
+
+.btn:hover{
+    background-color: var(--rosa);
+    color: var(--rosinha);
+    transition: 1s;
+}
+
+/* Modal */
+
+.modal-header{
+    background-color: var(--preto);
+}
+
+.btn-close{
+    background-color: var(--violeta);
+}
+
+.modal-title{
+    color: var(--branco);
+    font-family: var(--fonte-titulo);
+}
+
+.modal-subtitle{
+    color: var(--violeta-claro);
+    font-family: var(--fonte-titulo);
+}
+
+.modal-paragrafo{
+    color: var(--preto);
+    font-family: var(--fonte-texto);
 }
 
 /* rodape */

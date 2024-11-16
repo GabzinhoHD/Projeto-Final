@@ -60,6 +60,7 @@ li {
 a {
     color: var(--branco);
     text-decoration: none;
+    font-family: var(--fonte-texto);
 }
 
 .ul-dg{
@@ -117,14 +118,26 @@ body{
 
 /* Modal */
 
+.modal-header{
+    background-color: var(--preto);
+}
+
+.btn-close{
+    background-color: var(--violeta);
+}
+
 .modal-title{
-    color: var(--violeta);
+    color: var(--branco);
     font-family: var(--fonte-titulo);
 }
 
 .modal-paragrafo{
     color: var(--preto);
     font-family: var(--fonte-texto);
+}
+
+.modal-footer{
+    background-color: var(--preto);
 }
 
 
