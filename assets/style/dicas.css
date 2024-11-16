@@ -21,6 +21,8 @@
     --fonte-texto:"Nunito", sans-serif;
 }
 
+/* cabeçalho */
+
 header{
     box-sizing: border-box;
     display: flex;
@@ -80,9 +82,13 @@ a {
     color: var(--rosa);
 }
 
+/* corpo */
+
 body{
-background-color: #222222;
+background-color: var(--cinza-fosco);
 }
+
+/* rodape */
 
 footer{
     display: flex;

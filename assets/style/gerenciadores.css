@@ -21,6 +21,8 @@
     --fonte-texto:"Nunito", sans-serif;
 }
 
+/* cabeçalho */
+
 header{
     box-sizing: border-box;
     display: flex;
@@ -57,6 +59,7 @@ li {
 
 a {
     color: var(--branco);
+    text-decoration: none;
 }
 
 .ul-dg{
@@ -80,57 +83,52 @@ a {
     color: var(--rosa);
 }
 
-body {
-    font-family: var(--fonte-texto);
-    text-align: center;
+/* corpo */
+
+body{
     background-color: var(--cinza-fosco);
-    color: var(--branco);
-    margin: 0 auto;
-    
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-    margin: 50px;
-    justify-content: space-around;
-    margin-top: 85px;
+/* card */
+
+.card{
+    background-color: var(--preto);
+    box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-h2 {
-    font-size: 30px;
-    line-height: 50px;
+.card-title{
     font-family: var(--fonte-titulo);
-    
+    font-size: 1.5rem;
+    color: var(--branco);
+}
+
+.btn{
+    color:var(--branco);
+    border-radius: 15px;
+    background-color: var(--violeta);
+}
+
+.btn:hover{
+    background-color: var(--rosa);
+    color: var(--rosinha);
+    transition: 1s;
 }
 
 
-span {
-    color: var(--ametista);
-}
+/* Modal */
 
-p {
-    line-height: 25px;
-    max-width: 500px;
-    font-family: var(--fonte-texto);
-    margin-left: 30px;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    margin: 0 auto;
-    font-size: 1.2rem;
+.modal-title{
+    color: var(--violeta);
+    font-family: var(--fonte-titulo);
 }
 
 .modal-paragrafo{
     color: var(--preto);
+    font-family: var(--fonte-texto);
 }
 
-#exampleModalLabel{
-    color: var(--violeta);
-}
+
+/* rodape */
 
 footer{
     display: flex;
