@@ -175,3 +175,12 @@ footer {
 .footer-link:hover {
     color: var(--violeta);
 }
+
+@media screen and (max-width: 1020px){
+
+    /* cabeçalho */
+
+    .ul-dg, .btn-card{
+        display: none;
+    }
+}
