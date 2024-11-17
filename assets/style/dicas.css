@@ -176,11 +176,117 @@ footer {
     color: var(--violeta);
 }
 
+/* Estilos para a versão mobile */
+.menu-mobile {
+    display: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu-mobile i {
+    font-size: 1.8rem;
+    color: var(--branco);
+}
+
+.menu-mobile.open ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: var(--preto);
+    width: 100%;
+    padding: 1em;
+    z-index: 1000;
+}
+
+.menu-mobile ul {
+    display: none;
+    text-align: center;
+}
+
+.menu-mobile.open ul {
+    display: flex;
+}
+
+.menu-mobile ul a {
+    text-decoration: none;
+    color: var(--branco);
+    padding: 10px 0;
+    border-bottom: 1px solid var(--violeta-claro);
+}
+
+.menu-mobile ul a:last-child {
+    border-bottom: none;
+}
+
 @media screen and (max-width: 1020px){
-
-    /* cabeçalho */
-
-    .ul-dg, .btn-card{
+    
+    header ul {
         display: none;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+
+    .menu-mobile.open ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: var(--preto);
+        width: 100vw;
+        padding: 1em;
+        z-index: 1000;
+    }
+
+    .menu-mobile ul {
+        display: none;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        width: 100%;
+    }
+
+    .menu-mobile.open ul {
+        display: flex;
+    }
+
+    .menu-mobile ul a {
+        text-decoration: none;
+        color: var(--branco);
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .title {
+        display: block; 
+    }
+
+    .card-title{
+        font-size: 20px;
+    }
+
+    .card-text{
+        font-size: 12px;
+    }
+
+    .btn{
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 1.5rem; 
+        text-align: center; 
+        padding: 10px; 
+    }
+
+    .footer-link {
+        font-size: 1.5rem;
+        margin: 5px 0;
     }
 }

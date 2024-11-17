@@ -18,25 +18,27 @@
             <img class="logo" src="assets/img/logo.png" alt="">
             <h1 class="title">LAG getList</h1>
         </div>
-        
+    
+        <!-- Menu Desktop -->
+        <ul>
+            <a href="dicas.html" class="ul-dg"><li>Explorar</li><a>
+            <a href="gerenciadores.html" class="ul-dg"><li>Sugestões</li></a>
+            <a href="index.html" class="btn-card"><li>Início</li></a>
+        </ul>
+    
+        <!-- Menu Mobile -->
+        <div class="menu-mobile" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
             <ul>
-                <a href="dicas.html" class="ul-dg"><li>Explorar</li></a>
-                <a href="gerenciadores.html" class="ul-dg"><li>Sugestões</li></a>
-                <a href="index.html" class="btn-card"><li>Inicio</li></a>
-            </ul>
-
-        <div class="menu-mobile">
-            <div class="btn-fechar">
-                <i class="bi bi-x-lg"></i>
-            </div>
-            <ul>
-                <a href="dicas.html" class="ul-dg"><li>Explorar</li></a>
-                <a href="gerenciadores.html" class="ul-dg"><li>Sugestões</li></a>
-                <a href="index.html" class="ul-dg"><li>Inicio</li></a>
+                <a href="dicas.html"><li>Explorar</li></a>
+                <a href="gerenciadores.html"><li>Sugestões</li></a>
+                <a href="index.html"><li>Início</li></a>
             </ul>
         </div>
-        
     </header>
+    
+    
+    
 
     <!-- Conteúdo principal -->
     <main class="container mt-5">
@@ -45,7 +47,7 @@
             <aside class="col-lg-6 mb-4">
                 <h2><span>Lagou? Aprenda a fazer uma lista</span></h2>
                 <h2>Na LAG</h2>
-                <p>
+                <p class="mobile-pgrf">
                     Aqui, acreditamos que a organização é a chave para alcançar seus objetivos sem abrir mão de tempo e qualidade de vida. Nosso site oferece dicas práticas para te ajudar a gerenciar melhor suas tarefas, seja no trabalho, nos estudos ou na vida pessoal.
                 </p>
                 <a href="dicas.html" class="btn btn-custom mt-3">Dicas</a>
@@ -68,4 +70,14 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function toggleMenu() {
+            const menuMobile = document.querySelector('.menu-mobile');
+            menuMobile.classList.toggle('open');
+        }
+    </script>
+    
+    
+    
 </body>
